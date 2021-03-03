@@ -13,6 +13,12 @@ __weak const ButtonObj* Button_GetInstance(void)
 	UNUSED(NULL);
 }
 
+// Получение указателя на структуру кнопок
+__weak const ButtonMultiClickObj* ButtonMultickick_GetInstance(void)
+{
+	UNUSED(NULL);
+}
+
 // Функция обработки кнопок
 void Button_Handle(const ButtonObj *hbut)
 {

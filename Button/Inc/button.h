@@ -73,6 +73,7 @@ typedef struct __ButtonMultiClickObj
 void Button_Handle(const ButtonObj *hbut);
 void ButtonMultiClick_Handle(const ButtonMultiClickObj *hbut);
 const ButtonObj* Button_GetInstance(void);
+const ButtonMultiClickObj* ButtonMultickick_GetInstance(void);
 
 #ifdef __cplusplus
 }
