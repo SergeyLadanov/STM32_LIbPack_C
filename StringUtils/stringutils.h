@@ -4,6 +4,8 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+#include <string.h>
  
 char* str_split(char** stringp, const char* delim);
   
